@@ -24,8 +24,6 @@ public class EquipoService {
         return equipoRepository.findAll();
     }
 
-    // TODO
-
     public Equipo crearEquipo(Equipo equipo){
         return equipoRepository.save(equipo);
     }
@@ -55,8 +53,7 @@ public class EquipoService {
         List<Expedicion> expediciones = equipo.getExpediciones();
         if (expediciones != null && !expediciones.isEmpty()) {
             for (Expedicion expedicion : expediciones) {
-                expedicion.getEquipos().remove(equipo); // Eliminar el equipo de las expediciones
-                //expedicionRepository.save(expedicion); // Guardar las expediciones actualizadas
+                expedicion.getEquipos().remove(equipo);  // Eliminar el equipo de las expediciones
             }
         }
 
