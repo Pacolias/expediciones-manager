@@ -33,10 +33,8 @@ public class EquipoController {
                 .collect(Collectors.toList());
     }
 
-    // TODO
-
     @PostMapping
-    public ResponseEntity<EquipoDTO> Crear(@RequestBody EquipoDTO equipoDTO, UriComponentsBuilder uriBuilder){
+    public ResponseEntity<EquipoDTO> crearEquipo(@RequestBody EquipoDTO equipoDTO, UriComponentsBuilder uriBuilder){
         Equipo equipoMapeado = Mapper.entidad(equipoDTO);
         Equipo nuevoEquipo = equipoService.crearEquipo(equipoMapeado);
         EquipoDTO equipoRespuesta = Mapper.dto(nuevoEquipo);
@@ -52,16 +50,16 @@ public class EquipoController {
     public ResponseEntity<EquipoDTO> consultarEquipo(@PathVariable Long id){
         return equipoService.consultaEquipoPorID(id)
                 .map(exp -> ResponseEntity.ok(Mapper.dto(exp)))      // Si existe, mapea a DTO
-                .orElseGet(() -> ResponseEntity.notFound().build()); // Si no existe, devuelve 404
+                .orElseGet(() -> ResponseEntity.notFound().build());        // Si no existe, devuelve 404
     }
 
     @PutMapping("{id}")
     public ResponseEntity<Equipo> actualizarEquipo(@PathVariable Long id, @RequestBody EquipoDTO equipoDTO){
-        Equipo equipo = Mapper.entidad(equipoDTO);
-        equipo.setId(id);
+        Equipo equipoMapeado = Mapper.entidad(equipoDTO);
+        equipoMapeado.setId(id);
 
         try {
-            Equipo equipoActualizado = equipoService.actualizarEquipo(equipo);
+            Equipo equipoActualizado = equipoService.actualizarEquipo(equipoMapeado);
             return ResponseEntity.ok(equipoActualizado);
 
         } catch(EntidadNoExisteException e){

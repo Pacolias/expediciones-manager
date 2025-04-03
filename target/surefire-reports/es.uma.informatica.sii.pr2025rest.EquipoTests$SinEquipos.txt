@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.649 s - in es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos
-es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.obtenerPorIdNoExiste  Time elapsed: 0.074 s
-es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.actualizarEquipoNoExiste  Time elapsed: 0.098 s
-es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.crearEquipo  Time elapsed: 0.069 s
-es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.todoEquipos  Time elapsed: 0.048 s
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.795 s - in es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos
+es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.obtenerPorIdNoExiste  Time elapsed: 0.064 s
+es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.actualizarEquipoNoExiste  Time elapsed: 0.064 s
+es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.crearEquipo  Time elapsed: 0.073 s
+es.uma.informatica.sii.pr2025rest.EquipoTests$SinEquipos.todoEquipos  Time elapsed: 0.077 s

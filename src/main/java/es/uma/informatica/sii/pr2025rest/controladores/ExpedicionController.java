@@ -25,7 +25,6 @@ public class ExpedicionController {
         this.expedicionService = expedicionService;
     }
 
-    // TODO
     @GetMapping
     public List<ExpedicionDTO> getListaExpediciones(){
         return expedicionService.obtenerTodos().stream()

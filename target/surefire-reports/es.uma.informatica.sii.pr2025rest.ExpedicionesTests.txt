@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: es.uma.informatica.sii.pr2025rest.ExpedicionesTests
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.518 s - in es.uma.informatica.sii.pr2025rest.ExpedicionesTests
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.117 s - in es.uma.informatica.sii.pr2025rest.ExpedicionesTests
