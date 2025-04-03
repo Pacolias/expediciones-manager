@@ -25,8 +25,6 @@ public class ExpedicionService {
         this.equipoRepository = equipoRepository;
     }
 
-    // TODO
-
     public List<Expedicion> obtenerTodos() {
         return expedicionRepository.findAll();
     }
