@@ -1,0 +1,35 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven build directories
+target/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other IDE specific files
+*.iml
+
+# Ignore dependency directories
+*.jar
+*.war
+*.ear
+
+# Ignore configuration files
+application.properties
+application.yml
