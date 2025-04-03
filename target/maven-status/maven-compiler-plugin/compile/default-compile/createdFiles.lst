@@ -1,0 +1,15 @@
+es\uma\informatica\sii\pr2025rest\repositorios\ExpedicionRepository.class
+es\uma\informatica\sii\pr2025rest\entidades\Equipo.class
+es\uma\informatica\sii\pr2025rest\excepciones\EntidadNoExisteException.class
+es\uma\informatica\sii\pr2025rest\dtos\ExpedicionDTO.class
+es\uma\informatica\sii\pr2025rest\repositorios\EquipoRepository.class
+es\uma\informatica\sii\pr2025rest\entidades\Expedicion.class
+es\uma\informatica\sii\pr2025rest\excepciones\ExpedicionConEquiposException.class
+es\uma\informatica\sii\pr2025rest\servicios\ExpedicionService.class
+es\uma\informatica\sii\pr2025rest\ExpedicionesApplication.class
+es\uma\informatica\sii\pr2025rest\controladores\EquipoController.class
+es\uma\informatica\sii\pr2025rest\dtos\EquipoDTO.class
+es\uma\informatica\sii\pr2025rest\dtos\ExpedicionEntradaDTO.class
+es\uma\informatica\sii\pr2025rest\servicios\EquipoService.class
+es\uma\informatica\sii\pr2025rest\controladores\ExpedicionController.class
+es\uma\informatica\sii\pr2025rest\controladores\Mapper.class
